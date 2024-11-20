@@ -1,4 +1,5 @@
 import { FaCaretDown, FaRegCheckCircle } from "react-icons/fa";
+import { SiGooglegemini } from "react-icons/si";
 import DevButton from "../dev-components/dev-button";
 import DevPopover from "../dev-components/dev-popover";
 
@@ -12,7 +13,7 @@ const GeminiLogo = () => {
           </DevButton>
         }
       >
-        <div className=" py-2">
+        <div className="py-2">
           <DevButton
             variant="v3"
             className="w-full !justify-between gap-3 group"
