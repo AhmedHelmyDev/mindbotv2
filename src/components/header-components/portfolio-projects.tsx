@@ -5,58 +5,25 @@ import Link from "next/link";
 const PortfolioProjects = () => {
   const projects = [
     {
-      name: 'Do paste',
-      desr: 'Do-Paste allows users to share single pages that are editable by the creator and can be shared with everyone.',
-      link: 'https://do-paste.vercel.app/',
+      name: 'Image Generator',
+      desr: 'Nothing',
+      link: 'https://imggenerator-mindbot.vercel.app/',
     },
     {
-      name: 'Devvarena',
-      desr: 'Devvarena is a simple, powerful, and feature-packed frontend editor designed specifically for beginners.',
-      link: 'https://devvarena.com/',
+      name: 'TextOcr',
+      desr: 'Nothing',
+      link: 'https://textocr-mindbot.vercel.app/',
     },
 
     {
-      name: 'Dev Gemini Clone',
-      desr: 'Experience the power of AI with our Gemini-inspired assistant.',
-      link: 'https://dev-gemini-clone.vercel.app/',
+      name: 'Object Detector',
+      desr: 'Nothing',
+      link: 'https://vision-mindbot.vercel.app/',
     }
-    ,
-    {
-      name: 'CSS Button Generator',
-      desr: 'Create custom CSS code for stylish and interactive buttons.',
-      link: 'https://buttons.devvarena.com/',
-    },
-    {
-      name: 'Palette Paradise ',
-      desr: 'Manage color palettes for web designs with ease.',
-      link: 'https://palette-paradise.devvarena.com/',
-
-    },
-    {
-      name: 'CSS Box Shadows Generator',
-      desr: 'Generate CSS code for custom box shadows.',
-      link: 'https://box-shadows.devvarena.com/',
-
-    },
-    {
-      name: 'CSS Glassmorphism Generator',
-      desr: 'Create CSS code for the glassmorphism effect in UI design.',
-      link: 'https://glassmorphism.devvarena.com/',
-
-    }, {
-      name: 'Codepen project',
-      desr: 'All the codepen projects',
-      link: "https://codepen.io/Devyansh-coder"
-    }, {
-      name: 'Dev components',
-      desr: 'Crafting a Lightweight Website using customizable and functional React Components for Maximum Control',
-      link: 'https://dev-components.vercel.app/'
-    }
-
   ]
   return (
     <div className="w-52 h-fit p-2">
-      <h3>Other projects</h3>
+      <h3>Other Features</h3>
       <div className="grid grid-cols-4 gap-3 mt-3">
         {
           projects.map((item, i) => (
